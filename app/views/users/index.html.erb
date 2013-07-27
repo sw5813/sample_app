@@ -1,0 +1,14 @@
+<% provide(:title, 'All users') %>
+<h1>All users</h1>
+
+<%= will_paginate %>
+<div class="link">
+	<%= link_to_function "View All", "window.location='?per_page='+#{User.count}", class: "nav_link" %>
+</div>
+<%#= select_tag options_for_select([10, 20, 50, User.count], @per_page), :onchange => "if(this.value){window.location='?per_page='+this.value;}" %>
+
+<ul class="users">
+	<%= render @users %>
+</ul>
+
+<%= will_paginate %>
