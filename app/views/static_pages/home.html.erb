@@ -15,15 +15,31 @@
 	</div>
 <% else %>
 	<div class="center hero-unit">
-		<h1>Welcome to the Sample App</h1>
+		<h1>Welcome to TANK</h1>
 
 		<h2>
-			This is the home page for the <a 	href="http://railstutorial.org/">	Ruby on Rails Tutorial</a> sample 	application. 
+			The only online, collaborative think tank for college students. 
 		</h2>
 	
-		<%= link_to "Sign up now!", 	signup_path, class: "btn btn-	large btn-primary" %>
+		<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 	</div>
 
-	<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+	<div class="center"><em>Click on a topic below to see what ideas the nation's brightest students have to make the world a better place</em></div>
+	<div class="row">
+		<div class="span4">
+			<h3 class="center">Poverty</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue.</p>
+		</div>
+		<div class="span4">
+			<h3 class="center">Topic 2</h3>
+			<p>Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>
+		</div>
+		<div class="span4">
+			<h3 class="center">Topic 3</h3>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In posuere felis nec tortor. Pellentesque faucibus. Ut accumsan ultricies elit. Maecenas at justo id velit placerat molestie. Donec dictum lectus non odio. Cras a ante vitae enim iaculis aliquam. Mauris nunc quam, venenatis nec, euismod sit amet, egestas placerat, est.</p>
+		</div>
+	</div>
+
+	<%#= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 <% end %>
 
