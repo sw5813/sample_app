@@ -1,3 +1,3 @@
-# Ruby on Rails Tutorial: sample application
+# TANK (temporary name)
 
-This is the sample application for the [*Ruby on Rails Tutorial*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/).
+Will soon be accessible on heroku
